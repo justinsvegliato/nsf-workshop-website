@@ -1,0 +1,236 @@
+body {
+  margin: 0;
+}
+
+a img {
+  border: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #448aff;
+  font-weight: normal;
+}
+
+figure {
+  margin: 0px !important; 
+}
+
+figcaption {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+::-moz-selection {
+  background-color: #6ab344;
+  color: #fff;
+}
+
+::selection {
+  background-color: #6ab344;
+  color: #fff;
+}
+
+.section {
+  padding-top: 5px;
+  padding-bottom: 35px;
+}
+
+.section-body {
+  width: %;
+  margin: auto;
+  max-width: 1200px;
+}
+
+.section-body ul {
+  margin-top: 0px;
+}
+
+.section-body h2, .section-body h3, .section-body, .section-body p, .section-body li {
+  font-family: 'Roboto', 'Helvetica', sans-serif;
+}
+
+.section-body h2, .section-body h3 {
+  font-weight: bold;
+  color: #313131;
+  letter-spacing: 1px;
+}
+
+.section-body h2 {
+  font-size: 35px
+}
+
+.section-body h3 {
+  font-size: 25px;
+  margin-bottom: 0px;
+}
+
+.section-body h4 {
+  margin-top: 0px;
+}
+
+.section-body h4, .section-body h5 {
+  margin-bottom: 0px;
+  font-weight: 300;
+}
+
+.section-body, .section-body p, .section-body li {
+  font-size: 18px;
+  color: #383a3c;
+  font-weight: 300;
+}
+
+.mdl-button {
+  margin-right: 10px;
+  margin-bottom: 13px;
+}
+
+.mdl-mega-footer {
+  text-align: center;
+  height: 100px;
+  background-color: #999;
+}
+
+#banner {
+  height: 250px;
+  padding-top: 80px;
+  background-image: url(../img/banner.png);
+  background-repeat: no-repeat;
+  background-position: center 70%;
+  text-align: center;
+}
+
+#logo {
+  font: 56px 'Roboto', 'Helvetica', sans-serif;
+  line-height: 1;
+  color: #fff;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
+}
+
+#about {
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+#bio {
+  padding-top: 15px;
+}
+
+#education {
+  line-height: 24px;
+}
+
+#education {
+  background-color: #ddd;
+}
+
+#projects p, #research p, #about p, #miscellaneous p {
+  text-align: justify;
+}
+
+.highlight, .position {
+  color: #c100bb !important;
+}
+
+.keyword {
+  color: #007b76;
+}
+
+.honor, .degree, .author, .theme, .company {
+  color: #448aff;
+  margin: 0px;
+}
+
+.date {
+  color: #3f51b5;
+  padding-right: 20px;
+  text-align: right;
+}
+
+.event {
+  margin-bottom: 15px;
+}
+
+.social-media-icons {
+  padding-top: 30px;
+  padding-bottom: 35px;
+}
+
+.social-media-icon {
+  color: #fff;
+  margin-right: 20px;
+  font-size: 35px;
+}
+
+.social-media-icon:hover {
+  color: #448aff;
+}
+
+.last {
+  margin-right: 0px !important;
+}
+
+.seperator {
+  color: #383a3c;
+  font-weight: bold;
+}
+
+@media (max-width: 1024px) {
+  #logo {
+    font-size: 36px;
+    letter-spacing: 3px;
+  }
+
+  #slogan {
+    font-size: 16px;
+    width: 90%;
+  }
+
+  .section-body {
+    width: 85%;
+  }
+  
+  #about {
+    text-align: center;
+  }
+
+  #about .mdl-cell {
+    margin: auto auto;
+  }
+
+  #photo {
+    margin-top: 20px;
+  }
+
+  #honors .mdl-cell {
+    margin-bottom: 0px;
+  }
+
+  .degree, .date, .company, .highlight {
+    display: block;
+    width: 100% !important;
+    text-align: left !important;
+  }
+
+  .event {
+    margin-bottom: 20px;
+  }
+
+  .seperator {
+    display: none;
+  }
+
+  figure img {
+    width: 100% !important;
+    height: auto !important;
+    max-width: 400px;
+  }
+  
+  .buttons {
+    text-align: center;
+  }
+
+  .mdl-cell {
+    width: 100%;
+  }
+}
