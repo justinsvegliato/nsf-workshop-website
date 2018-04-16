@@ -182,6 +182,12 @@ figcaption {
 
 .time {
   color: #982833;
+  font-weight: 400;
+}
+
+.description {
+  color: #0a4489;
+  font-weight: 400;
 }
 
 #organizers .mdl-card-image__caption {
@@ -232,6 +238,31 @@ figcaption {
 
 .mdl-card-image__poster5 {
   background: url('../img/poster_5.jpg') center / cover;
+}
+
+.yellow {
+  color: #d4b003;
+  font-weight: normal;
+}
+
+.purple {
+  color: #673756;
+  font-weight: normal;
+}
+
+.green {
+  color: #3a7a56;
+  font-weight: normal;
+}
+
+.blue {
+  color: #103261;
+  font-weight: normal;
+}
+
+.red {
+  color: #93302f;
+  font-weight: normal;
 }
 
 @media (max-width: 1024px) {
