@@ -37,13 +37,14 @@ figcaption {
 }
 
 .section-body {
-  width: %;
+  width: 70%;
   margin: auto;
   max-width: 1200px;
 }
 
 .section-body ul {
   margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .section-body h2, .section-body h3, .section-body, .section-body p, .section-body li {
@@ -85,94 +86,152 @@ figcaption {
   margin-bottom: 13px;
 }
 
+.mdl-list__item {
+  min-height: 0px;
+  padding: 3px;
+}
+
+.mdl-list__item-icon {
+  margin-right: 5px;
+}
+
 .mdl-mega-footer {
   text-align: center;
-  height: 100px;
+  height: 130px;
   background-color: #999;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.mdl-card-image {
+  width: 300px;
+  height: 250px;
+}
+
+.mdl-card-image__caption {
+  text-align: center;
+  padding-top: 2px;
+  padding-left: 3px;
+  padding-right: 3px;
+  line-height: 1;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.mdl-card-image__entry {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+#nsf_logo {
+  width: 130px;
+  margin-right: 20px;
+}
+
+#umass_seal {
+  width: 120px;
 }
 
 #banner {
-  height: 250px;
+  height: 220px;
   padding-top: 80px;
   background-image: url(../img/banner.png);
   background-repeat: no-repeat;
-  background-position: center 70%;
+  background-position: center 75%;
   text-align: center;
 }
 
 #logo {
-  font: 56px 'Roboto', 'Helvetica', sans-serif;
+  font: 45px 'Roboto', 'Helvetica', sans-serif;
   line-height: 1;
   color: #fff;
-  text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
+  margin-bottom: 20px;
+}
+
+#slogan {
+  font: 25px 'Roboto', 'Helvetica', sans-serif;
+  line-height: 1;
+  color: #fff;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
+}
+
+#date {
+  font: 25px 'Roboto', 'Helvetica', sans-serif;
+  line-height: 1;
+  color: #fff;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
 }
 
 #about {
-  padding-top: 15px;
+  padding-top: 25px;
   padding-bottom: 10px;
 }
 
-#bio {
-  padding-top: 15px;
-}
-
-#education {
-  line-height: 24px;
-}
-
-#education {
-  background-color: #ddd;
-}
-
-#projects p, #research p, #about p, #miscellaneous p {
+#about p {
   text-align: justify;
 }
 
-.highlight, .position {
-  color: #c100bb !important;
+#organizers, #posters, #slides {
+  background-color: #ddd;
 }
 
-.keyword {
-  color: #007b76;
+#schedule .mdl-grid {
+  padding: 0px !important;
 }
 
-.honor, .degree, .author, .theme, .company {
-  color: #448aff;
-  margin: 0px;
+.time {
+  color: #982833;
 }
 
-.date {
-  color: #3f51b5;
-  padding-right: 20px;
-  text-align: right;
+#organizers .mdl-card-image__caption {
+  height: 50px;
 }
 
-.event {
-  margin-bottom: 15px;
+#posters .mdl-card-image__caption {
+  height: 50px;
+  vertical-align: middle;
+  line-height: 50px;
 }
 
-.social-media-icons {
-  padding-top: 30px;
-  padding-bottom: 35px;
+.mdl-card-image__zilberstein {
+  background: url('../img/shlomo_zilberstein.jpg') center / cover;
 }
 
-.social-media-icon {
-  color: #fff;
-  margin-right: 20px;
-  font-size: 35px;
+.mdl-card-image__roberts {
+  background: url('../img/shannon_roberts.jpeg') center / cover;
 }
 
-.social-media-icon:hover {
-  color: #448aff;
+.mdl-card-image__smithdoerr {
+  background: url('../img/laurel_smithdoerr.jpg') center / cover;
 }
 
-.last {
-  margin-right: 0px !important;
+.mdl-card-image__renski {
+  background: url('../img/henry_renski.jpg') center / cover;
 }
 
-.seperator {
-  color: #383a3c;
-  font-weight: bold;
+.mdl-card-image__branch {
+  background: url('../img/enobong_hannah_branch.jpg') center / cover;
+}
+
+.mdl-card-image__poster1 {
+  background: url('../img/poster_1.jpg') center / cover;
+}
+
+.mdl-card-image__poster2 {
+  background: url('../img/poster_2.jpg') center / cover;
+}
+
+.mdl-card-image__poster3 {
+  background: url('../img/poster_3.jpg') center / cover;
+}
+
+.mdl-card-image__poster4 {
+  background: url('../img/poster_4.jpg') center / cover;
+}
+
+.mdl-card-image__poster5 {
+  background: url('../img/poster_5.jpg') center / cover;
 }
 
 @media (max-width: 1024px) {
@@ -188,36 +247,6 @@ figcaption {
 
   .section-body {
     width: 85%;
-  }
-  
-  #about {
-    text-align: center;
-  }
-
-  #about .mdl-cell {
-    margin: auto auto;
-  }
-
-  #photo {
-    margin-top: 20px;
-  }
-
-  #honors .mdl-cell {
-    margin-bottom: 0px;
-  }
-
-  .degree, .date, .company, .highlight {
-    display: block;
-    width: 100% !important;
-    text-align: left !important;
-  }
-
-  .event {
-    margin-bottom: 20px;
-  }
-
-  .seperator {
-    display: none;
   }
 
   figure img {
