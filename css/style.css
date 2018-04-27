@@ -87,7 +87,7 @@ figcaption {
 }
 
 .mdl-list__item {
-  min-height: 0px;
+  min-height: 10px;
   padding: 3px;
 }
 
@@ -187,7 +187,7 @@ figcaption {
   text-align: justify;
 }
 
-#organizers, #bibliography, #posters {
+#organizers, #bibliography, #bibliography {
   background-color: #ddd;
 }
 
@@ -299,11 +299,10 @@ figcaption {
 
 @media (max-width: 1024px) {
   #logo {
-    font-size: 36px;
-    letter-spacing: 3px;
+    font-size: 30px;
   }
 
-  #slogan {
+  #slogan, #date {
     font-size: 16px;
     width: 90%;
   }
@@ -324,5 +323,19 @@ figcaption {
 
   .mdl-cell {
     width: 100%;
+  }
+
+  #organizers .mdl-card-image, #posters .mdl-card-image {
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+  }
+
+  #participants .mdl-data-table {
+    width: 100%;
+  }
+
+  #bibliography .mdl-list__item {
+    margin-bottom: 5px;
   }
 }
