@@ -97,7 +97,6 @@ figcaption {
 
 .mdl-mega-footer {
   text-align: center;
-  height: 130px;
   background-color: #999;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -124,6 +123,10 @@ figcaption {
   font-weight: 300;
 }
 
+#bibliography .mdl-list__item {
+  font-size: 16px;
+}
+
 .mdl-data-table th {
   font-size: 18px;
   font-weight: 300;
@@ -140,15 +143,15 @@ figcaption {
 
 #nsf_logo {
   width: 130px;
-  margin-right: 20px;
 }
 
 #umass_seal {
   width: 120px;
+  margin-right: 20px;  
 }
 
 #banner {
-  height: 220px;
+  height: 340px;
   padding-top: 80px;
   background-image: url(../img/banner.png);
   background-repeat: no-repeat;
@@ -176,6 +179,7 @@ figcaption {
   line-height: 1;
   color: #fff;
   text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
+  margin-bottom: 20px;
 }
 
 #about {
@@ -187,7 +191,7 @@ figcaption {
   text-align: justify;
 }
 
-#organizers, #bibliography, #bibliography {
+#organizers, #bibliography, #particpants {
   background-color: #ddd;
 }
 
@@ -297,7 +301,15 @@ figcaption {
   font-weight: normal;
 }
 
+.disclaimer {
+  color: #fff;
+}
+
 @media (max-width: 1024px) {
+  #banner {
+    height: 360px;
+  }
+
   #logo {
     font-size: 30px;
   }
