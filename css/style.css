@@ -191,8 +191,8 @@ figcaption {
   text-align: justify;
 }
 
-#organizers, #bibliography, #particpants {
-  background-color: #ddd;
+#organizers, #bibliography, #particpants, #stakeholder-participants {
+  background-color: #eeeeeec7;
 }
 
 #schedule .mdl-grid {
@@ -343,7 +343,7 @@ figcaption {
     width: 250px;
   }
 
-  #participants .mdl-data-table {
+  #academic-participants .mdl-data-table,  #stakeholder-participants .mdl-data-table {
     width: 100%;
   }
 
